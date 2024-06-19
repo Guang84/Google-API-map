@@ -6,6 +6,7 @@
     <title>Real Estate Map Application</title>
     <style>
         body, html {
+            background-color: beige;
             height: 100%;
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
@@ -17,12 +18,19 @@
         #info {
             height: 20%;
             padding: 10px;
-            background-color: #f8f9fa;
+            background-color: #208dfb8f;
             overflow-y: auto;
         }
         .info-content {
             padding: 10px;
             border-bottom: 1px solid #ddd;
+        }
+        .head {
+            text-align: center;
+            background-color: blueviolet;
+            position: sticky;
+            font-weight: 600;
+            font-family: fantasy;
         }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeNB4RWMp0atS5CSqv1GbKUkBldE6TROM&libraries=drawing,places,geometry"></script>
@@ -39,7 +47,12 @@
             map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 12,
                 center: center,
-                mapTypeId: 'roadmap'
+                mapTypeId: 'roadmap',
+                rotateControl: true,
+                tilt: 45,
+                mapTypeControl: true,
+                streetViewControl: true,
+                fullscreenControl: true
             });
 
             drawingManager = new google.maps.drawing.DrawingManager({
@@ -144,6 +157,9 @@
     </script>
 </head>
 <body onload="initMap()">
+    <div class="head">
+        <b>Anao-Map</b>
+    </div>
     <input id="pac-input" class="controls" type="text" placeholder="Search for places">
     <div id="map"></div>
     <div id="info"></div>
