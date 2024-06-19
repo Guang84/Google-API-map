@@ -1,18 +1,13 @@
 # hope-map
-Sure, here's a README file for the real estate map application:
-
----
-
-# Real Estate Map Application
 
 This is a web-based application that allows users to search for properties, draw boundaries on a map, and view details about specific locations. Built using the Google Maps API, this application is designed to be responsive and user-friendly, making it a valuable tool for real estate professionals and potential buyers.
 
 ## Features
 
-- **Search for Properties**: Users can search for locations using a search box, with suggestions powered by Google Places.
-- **Interactive Map with Drawing Tools**: Users can draw markers, circles, polygons, polylines, and rectangles to mark areas of interest on the map.
-- **Property Information**: Displays information about properties within the marked areas.
-- **Responsive Design**: Ensures the application works well on different devices.
+- Search for Properties: Users can search for locations using a search box, with suggestions powered by Google Places.
+- Interactive Map with Drawing Tools: Users can draw markers, circles, polygons, polylines, and rectangles to mark areas of interest on the map.
+- Property Information: Displays information about properties within the marked areas.
+- Responsive Design: Ensures the application works well on different devices.
 
 ## Getting Started
 
@@ -23,13 +18,13 @@ This is a web-based application that allows users to search for properties, draw
 
 ### Installation
 
-1. **Clone the repository**:
+1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/real-estate-map-app.git
-    cd real-estate-map-app
+    git clone https://github.com/Guang84/hope-map.git
+    cd hope-map
     ```
 
-2. **Open the `index.html` file** in your web browser to view the application:
+2. Open the `index.html` file in your web browser to view the application:
     ```sh
     open index.html
     ```
@@ -44,14 +39,13 @@ This application uses the Google Maps JavaScript API. You'll need to provide you
 4. Generate an API key.
 5. Replace the `YOUR_API_KEY` placeholder in the `index.html` file with your API key:
     ```html
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=drawing,places,geometry"></script>
     ```
 
 ## Usage
 
-1. **Search for Places**: Use the search box at the top-left corner of the map to search for places. The map will update to show the search results.
-2. **Draw on the Map**: Use the drawing tools at the top-center of the map to draw markers, circles, polygons, polylines, and rectangles. 
-3. **View Property Information**: When a marker is placed, the application will display simulated property information in the panel at the bottom of the screen.
+1. Search for Places: Use the search box at the top-left corner of the map to search for places. The map will update to show the search results.
+2. Draw on the Map: Use the drawing tools at the top-center of the map to draw markers, circles, polygons, polylines, and rectangles. 
+3. View Property Information: When a marker is placed, the application will display simulated property information in the panel at the bottom of the screen.
 
 ## Project Structure
 
@@ -62,6 +56,7 @@ This application uses the Google Maps JavaScript API. You'll need to provide you
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+Contact: brazilianpro96@gmail.com
 
 ## License
 
