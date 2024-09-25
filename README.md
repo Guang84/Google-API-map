@@ -20,7 +20,7 @@ This is a web-based application that allows users to search for properties, draw
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Guang84/hope-map.git
+    git clone (https://guang84.github.io/Google-API-map/)
     cd hope-map
     ```
 
