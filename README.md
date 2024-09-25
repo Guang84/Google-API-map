@@ -28,7 +28,7 @@ This is a web-based application that allows users to search for properties, draw
     ```sh
     open index.html
 '''
-WebPage: [hope-map](https://guang84.github.io/hope-map/)
+WebPage: [Google API map](https://guang84.github.io/hope-map/)
 
 ### Google Maps API Key
 
@@ -57,7 +57,7 @@ This application uses the Google Maps JavaScript API. You'll need to provide you
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-Contact: brazilianpro96@gmail.com
+Contact: guanghope01@gmail.com
 
 ## License
 
