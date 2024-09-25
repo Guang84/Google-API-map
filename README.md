@@ -1,4 +1,4 @@
-# hope-map
+# Google-API-map
 
 This is a web-based application that allows users to search for properties, draw boundaries on a map, and view details about specific locations. Built using the Google Maps API, this application is designed to be responsive and user-friendly, making it a valuable tool for real estate professionals and potential buyers.
 
